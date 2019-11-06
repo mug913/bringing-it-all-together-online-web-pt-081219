@@ -1,10 +1,10 @@
-class Dog 
+class Dog
 
 attr_accessor :name, :breed
-attr_reader :id 
+attr_reader :id
 
 def initialiize(name:,breed:,id:)
-  @name = name 
+  @name = name
   @breed = breed
 end
 

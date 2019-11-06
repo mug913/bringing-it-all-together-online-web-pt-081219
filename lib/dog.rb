@@ -34,7 +34,7 @@ class Dog
     result = DB[:conn].execute(sql, id)[0]
     Dog.new_from_db(result)
   end
-  
+
   def save
     if self.id
       self.update
